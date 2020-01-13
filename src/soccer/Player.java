@@ -12,7 +12,7 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 @Entity
-@Table(name=players)
+@Table(name="players")
 public class Player implements Serializable {
 	
 	static final long serialVersionUID = 3;
